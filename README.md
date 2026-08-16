@@ -42,12 +42,18 @@ Traditional color themes from Formosa and Nippon for [Neovim](https://neovim.io/
   "WeiTing1991/suannhai.nvim",
   lazy = false,
   priority = 1000,
+  build = "python3 scripts/sync-palettes.py",
   config = function()
     require("suannhai").setup({})
     vim.cmd.colorscheme("suannhai-jiufen")
   end,
 }
 ```
+
+> The `build` step fetches the latest color palettes from
+> [suannhai-theme](https://github.com/WeiTing1991/suannhai-theme) on install
+> and update. It requires Python 3. If unavailable, the bundled palettes are
+> used as fallback.
 
 ## Configuration
 
