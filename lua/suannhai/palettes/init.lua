@@ -43,22 +43,22 @@ function M.setup(style, opts)
   -- brights: [comment, bright_keyword, bright_string, bright_func, bright_type, bright_number, bright_constant, bright_fg]
   local bright_amount = is_light and 0.3 or 0.25
   raw.terminal = {
-    [0]  = raw.surface,                              -- black
-    [1]  = raw.keyword,                              -- red
-    [2]  = raw.string,                               -- green
-    [3]  = raw.func,                                 -- yellow
-    [4]  = raw.type,                                 -- blue
-    [5]  = raw.number,                               -- magenta
-    [6]  = raw.constant,                             -- cyan
-    [7]  = raw.fg,                                   -- white
-    [8]  = raw.comment,                              -- bright black
-    [9]  = Util.brighten(raw.keyword, bright_amount),  -- bright red
-    [10] = Util.brighten(raw.string, bright_amount),   -- bright green
-    [11] = Util.brighten(raw.func, bright_amount),     -- bright yellow
-    [12] = Util.brighten(raw.type, bright_amount),     -- bright blue
-    [13] = Util.brighten(raw.number, bright_amount),   -- bright magenta
+    [0] = raw.surface, -- black
+    [1] = raw.keyword, -- red
+    [2] = raw.string, -- green
+    [3] = raw.func, -- yellow
+    [4] = raw.type, -- blue
+    [5] = raw.number, -- magenta
+    [6] = raw.constant, -- cyan
+    [7] = raw.fg, -- white
+    [8] = raw.comment, -- bright black
+    [9] = Util.brighten(raw.keyword, bright_amount), -- bright red
+    [10] = Util.brighten(raw.string, bright_amount), -- bright green
+    [11] = Util.brighten(raw.func, bright_amount), -- bright yellow
+    [12] = Util.brighten(raw.type, bright_amount), -- bright blue
+    [13] = Util.brighten(raw.number, bright_amount), -- bright magenta
     [14] = Util.brighten(raw.constant, bright_amount), -- bright cyan
-    [15] = is_light and raw.bg or "#ffffff",           -- bright white
+    [15] = is_light and raw.bg or "#ffffff", -- bright white
   }
 
   raw.none = "NONE"

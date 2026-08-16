@@ -5,14 +5,14 @@ local M = {}
 
 -- Plugin name -> group module name
 M.plugins = {
-  ["gitsigns.nvim"]           = "gitsigns",
-  ["telescope.nvim"]          = "telescope",
-  ["fzf-lua"]                 = "fzf",
-  ["blink.cmp"]               = "blink",
-  ["snacks.nvim"]             = "snacks",
-  ["lazy.nvim"]               = "lazy",
-  ["neo-tree.nvim"]           = "neo-tree",
-  ["mini.nvim"]               = "mini",
+  ["gitsigns.nvim"] = "gitsigns",
+  ["telescope.nvim"] = "telescope",
+  ["fzf-lua"] = "fzf",
+  ["blink.cmp"] = "blink",
+  ["snacks.nvim"] = "snacks",
+  ["lazy.nvim"] = "lazy",
+  ["neo-tree.nvim"] = "neo-tree",
+  ["mini.nvim"] = "mini",
 }
 
 ---@param name string

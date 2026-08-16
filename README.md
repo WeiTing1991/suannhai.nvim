@@ -1,6 +1,7 @@
-<p align="center">
-  <h1 align="center">Suannhai for Neovim</h1>
-</p>
+# Suannhai
+
+[![Version](https://img.shields.io/badge/VERSION-0.1.0-ED6D3D?style=for-the-badge&labelColor=2E2C2A)](CHANGELOG.md)
+[![License: MIT](https://img.shields.io/badge/LICENSE-MIT-ED6D3D?style=for-the-badge&labelColor=2E2C2A)](LICENSE)
 
 Traditional color themes from Formosa and Nippon for [Neovim](https://neovim.io/).
 
