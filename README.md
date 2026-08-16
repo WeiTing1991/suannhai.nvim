@@ -1,6 +1,5 @@
 # Suannhai
 
-[![Version](https://img.shields.io/badge/VERSION-0.1.0-ED6D3D?style=for-the-badge&labelColor=2E2C2A)](CHANGELOG.md)
 [![License: MIT](https://img.shields.io/badge/LICENSE-MIT-ED6D3D?style=for-the-badge&labelColor=2E2C2A)](LICENSE)
 
 Traditional color themes from Formosa and Nippon for [Neovim](https://neovim.io/).
@@ -78,3 +77,7 @@ require("suannhai").setup({
 - [lazy.nvim](https://github.com/folke/lazy.nvim)
 - [neo-tree.nvim](https://github.com/nvim-neo-tree/neo-tree.nvim)
 - [mini.nvim](https://github.com/echasnovski/mini.nvim)
+
+## Contributing
+
+Bug reports, feature requests, and pull requests are welcome.
