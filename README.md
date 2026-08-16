@@ -1,6 +1,30 @@
-# Suannhai
+<h1 align="center">Suannhai for Neovim</h1>
 
-[![License: MIT](https://img.shields.io/badge/LICENSE-MIT-ED6D3D?style=for-the-badge&labelColor=2E2C2A)](LICENSE)
+<h4 align="center">
+  <a href="#install">Install</a>
+  ·
+  <a href="#configuration">Configure</a>
+  ·
+  <a href="https://github.com/WeiTing1991/suannhai-theme">Suannhai Theme</a>
+</h4>
+
+<div align="center"><p>
+    <a href="https://github.com/WeiTing1991/suannhai.nvim/releases/latest">
+      <img alt="Latest release" src="https://img.shields.io/github/v/release/WeiTing1991/suannhai.nvim?style=for-the-badge&logo=starship&color=C9CBFF&logoColor=D9E0EE&labelColor=302D41&include_prerelease&sort=semver" />
+    </a>
+    <a href="https://github.com/WeiTing1991/suannhai.nvim/pulse">
+      <img alt="Last commit" src="https://img.shields.io/github/last-commit/WeiTing1991/suannhai.nvim?style=for-the-badge&logo=starship&color=8bd5ca&logoColor=D9E0EE&labelColor=302D41"/>
+    </a>
+    <a href="https://github.com/WeiTing1991/suannhai.nvim/blob/main/LICENSE">
+      <img alt="License" src="https://img.shields.io/github/license/WeiTing1991/suannhai.nvim?style=for-the-badge&logo=starship&color=ee999f&logoColor=D9E0EE&labelColor=302D41" />
+    </a>
+    <a href="https://github.com/WeiTing1991/suannhai.nvim/stargazers">
+      <img alt="Stars" src="https://img.shields.io/github/stars/WeiTing1991/suannhai.nvim?style=for-the-badge&logo=starship&color=c69ff5&logoColor=D9E0EE&labelColor=302D41" />
+    </a>
+    <a href="https://github.com/WeiTing1991/suannhai.nvim/issues">
+      <img alt="Issues" src="https://img.shields.io/github/issues/WeiTing1991/suannhai.nvim?style=for-the-badge&logo=bilibili&color=F5E0DC&logoColor=D9E0EE&labelColor=302D41" />
+    </a>
+</p></div>
 
 Traditional color themes from Formosa and Nippon for [Neovim](https://neovim.io/).
 
@@ -51,21 +75,21 @@ require("suannhai").setup({
 
 ### Formosa
 
-| Name | Appearance | Command |
-| ---- | ---------- | ------- |
-| Suannhai Jiufen | Dark | `:colorscheme suannhai-jiufen` |
-| Suannhai Lam-ni | Dark | `:colorscheme suannhai-lam-ni` |
-| Suannhai Hue-poo | Light | `:colorscheme suannhai-hue-poo` |
+| Name | Appearance | Command | Preview |
+| ---- | ---------- | ------- | ------- |
+| Suannhai Jiufen | Dark | `:colorscheme suannhai-jiufen` | ![Jiufen](./assets/jiufen.png) |
+| Suannhai Lam-ni | Dark | `:colorscheme suannhai-lam-ni` | ![Lam-ni](./assets/lam-ni.png) |
+| Suannhai Hue-poo | Light | `:colorscheme suannhai-hue-poo` | ![Hue-poo](./assets/hue-poo.png) |
 
 ### Nippon
 
-| Name | Appearance | Command |
-| ---- | ---------- | ------- |
-| Suannhai Rouiro | Dark | `:colorscheme suannhai-rouiro` |
-| Suannhai Sumi | Dark | `:colorscheme suannhai-sumi` |
-| Suannhai Koiai | Dark | `:colorscheme suannhai-koiai` |
-| Suannhai Torinoko | Light | `:colorscheme suannhai-torinoko` |
-| Suannhai Shironeri | Light | `:colorscheme suannhai-shironeri` |
+| Name | Appearance | Command | Preview |
+| ---- | ---------- | ------- | ------- |
+| Suannhai Rouiro | Dark | `:colorscheme suannhai-rouiro` | ![Rouiro](./assets/rouiro.png) |
+| Suannhai Sumi | Dark | `:colorscheme suannhai-sumi` | ![Sumi](./assets/sumi.png) |
+| Suannhai Koiai | Dark | `:colorscheme suannhai-koiai` | ![Koiai](./assets/koiai.png) |
+| Suannhai Torinoko | Light | `:colorscheme suannhai-torinoko` | ![Torinoko](./assets/torinoko.png) |
+| Suannhai Shironeri | Light | `:colorscheme suannhai-shironeri` | ![Shironeri](./assets/shironeri.png) |
 
 ## Supported Plugins
 
