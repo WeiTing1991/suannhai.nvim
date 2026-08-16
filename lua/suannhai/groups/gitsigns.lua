@@ -1,7 +1,7 @@
 -- suannhai-nvim/lua/suannhai/groups/gitsigns.lua
 local M = {}
 
-function M.get(c, opts)
+function M.get(c, _opts)
   return {
     GitSignsAdd = { fg = c.git.add },
     GitSignsChange = { fg = c.git.change },

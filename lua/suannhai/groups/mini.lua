@@ -1,7 +1,7 @@
 -- suannhai-nvim/lua/suannhai/groups/mini.lua
 local M = {}
 
-function M.get(c, opts)
+function M.get(c, _opts)
   return {
     MiniCursorword = { underline = true },
     MiniCursorwordCurrent = { underline = true },

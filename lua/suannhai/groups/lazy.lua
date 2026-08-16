@@ -1,7 +1,7 @@
 -- suannhai-nvim/lua/suannhai/groups/lazy.lua
 local M = {}
 
-function M.get(c, opts)
+function M.get(c, _opts)
   return {
     LazyButton = { fg = c.fg, bg = c.surface },
     LazyButtonActive = { fg = c.bg, bg = c.keyword },

@@ -4,7 +4,7 @@ local M = {}
 ---@param c table palette
 ---@param opts suannhai.Config
 ---@return table
-function M.get(c, opts)
+function M.get(c, _opts)
   return {
     Comment = { fg = c.comment },
     Constant = { fg = c.constant },

@@ -8,8 +8,8 @@ local M = {}
 ---@field plugins? table
 M.defaults = {
   transparent = false,
-  on_colors = function(colors) end,
-  on_highlights = function(highlights, colors) end,
+  on_colors = function(_colors) end,
+  on_highlights = function(_highlights, _colors) end,
   plugins = {
     all = true,
     auto = true,
